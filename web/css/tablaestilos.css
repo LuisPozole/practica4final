@@ -1,0 +1,36 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Table styles */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid navy;
+}
+
+th {
+    background-color: blue;
+    color: darksalmon;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(144, 114, 216);
+}
+
+tr:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+/* Container styles */
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
